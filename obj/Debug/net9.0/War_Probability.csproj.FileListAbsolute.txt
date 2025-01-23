@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\War_Probability.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\War_Probability.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\War_Probability.AssemblyInfo.cs
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\War_Probability.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\War_Probability.sourcelink.json
+C:\Users\disrct\Desktop\Ingrid\War_Probability\bin\Debug\net9.0\War_Probability.exe
+C:\Users\disrct\Desktop\Ingrid\War_Probability\bin\Debug\net9.0\War_Probability.deps.json
+C:\Users\disrct\Desktop\Ingrid\War_Probability\bin\Debug\net9.0\War_Probability.runtimeconfig.json
+C:\Users\disrct\Desktop\Ingrid\War_Probability\bin\Debug\net9.0\War_Probability.dll
+C:\Users\disrct\Desktop\Ingrid\War_Probability\bin\Debug\net9.0\War_Probability.pdb
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\War_Probability.dll
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\refint\War_Probability.dll
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\War_Probability.pdb
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\War_Probability.genruntimeconfig.cache
+C:\Users\disrct\Desktop\Ingrid\War_Probability\obj\Debug\net9.0\ref\War_Probability.dll
