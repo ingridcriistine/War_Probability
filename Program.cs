@@ -2,8 +2,6 @@
 
 Random rand = new Random();
 bool game = true;
-Soldado atacantes = new(1000);
-Soldado defensores = new(500);
 int vitoriasAtaque = 0;
 int vitoriasDefesa = 0;
 
@@ -46,23 +44,28 @@ void War(Soldado atacantes, Soldado defensores) {
 
 for (int i = 0; i < 10_000; i++)
 {    
+    Soldado atacantes = new(1000);
+    Soldado defensores = new(500);
+    game = true;
+
     while(game) {
         War(atacantes, defensores);
+            
+        if(atacantes.qtdSoldados <= 1) {
+            Console.WriteLine("\nA defesa venceu!!");
+            vitoriasDefesa += 1;
+        }
+
+        if(defensores.qtdSoldados == 0) {
+            Console.WriteLine("\nO ataque venceu!!");
+            vitoriasAtaque += 1;
+        }
+
         if(atacantes.qtdSoldados <= 1 || defensores.qtdSoldados == 0) 
             game = false;
-    if(atacantes.qtdSoldados <= 1) {
-        Console.WriteLine("\nA defesa venceu!!");
-        vitoriasDefesa += 1;
     }
-
-    if(defensores.qtdSoldados == 0) 
-        Console.WriteLine("\nO ataque venceu!!");
-        vitoriasAtaque += 1;
-    }
-
 }
 
-
-Console.WriteLine($"Nº Atacantes: {atacantes.qtdSoldados}");
-Console.WriteLine($"Nº Defensores: {defensores.qtdSoldados}");
-Console.WriteLine($"O ataque venceu {vitoriasAtaque / (vitoriasAtaque+vitoriasDefesa) * 100}% das vezes.");
+// Console.WriteLine($"Nº Atacantes: {atacantes.qtdSoldados}");
+// Console.WriteLine($"Nº Defensores: {defensores.qtdSoldados}");
+Console.WriteLine($"O ataque venceu {vitoriasAtaque * 100 / (vitoriasAtaque+vitoriasDefesa)}% das vezes."); 
