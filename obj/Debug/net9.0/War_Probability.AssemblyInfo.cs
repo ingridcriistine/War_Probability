@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("War_Probability")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d225b4573e8c9ff4a6d794f16bdf4cef6c97862")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6c4b2ebcfc7e30c2ebc9bca97cd04022606242b")]
 [assembly: System.Reflection.AssemblyProductAttribute("War_Probability")]
 [assembly: System.Reflection.AssemblyTitleAttribute("War_Probability")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
